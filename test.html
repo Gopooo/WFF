@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>YeFiles.io</title>
+    <meta property="og:title" content="GODS TEST.mp3" />
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:image"
+      content="https://i.pinimg.com/originals/66/b1/25/66b125a711956555db524662e12af51f.png"
+    />
+    <meta
+      property="og:description"
+      content="YeFiles.io is free file-sharing service."
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="Assets/main.css" />
+    <link rel="icon" type="image/png" href="Assets/images/yf_logo_idea.png" />
+    <script type="text/javascript" src="JS/index.js"></script>
+    <script type="text/javascript" src="JS/particles.js"></script>
+    <script type="text/javascript" src="JS/player.js"></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+      integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+      data-cf-beacon='{"rayId":"7890836d1cb0d977","version":"2022.11.3","r":1,"token":"bf9da2ec7413430c91a24f3eab7c9725","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div class="uploadbox" id="uploadbox" style="position: relative">
+      <div class="logoarea">
+        <img class="logo" src="Assets/images/yf_logo_idea.png" />
+        <div class="logosubtext">yecordians stand up</div>
+      </div>
+      <div
+        id="filearea"
+        class="filearea"
+        style="cursor: pointer; position: relative; z-index: 0"
+      >
+        <div class="fileareatext">
+          <i
+            class="musicicon fas fa-music"
+            id="musicnote"
+            aria-hidden="true"
+          ></i>
+          <div class="uploadtext" id="fileareatext">
+            Drop your music here or <span class="bluetext">browse</span>
+          </div>
+          <div class="uploadtext2" id="fileareatext2">
+            .mp3, .m4a, .wav, .ogg, .aiff, .flac, .zip
+
+          </div>
+        </div>
+      </div>
+      <div class="file-list-title" id="file-list-title" style="display: none">
+        Upload Queue
+      </div>
+      <div class="file-list" id="file-list" style="margin-top: 0px"></div>
+
+</div>
+      <input
+        id="filearea"
+        type="file"
+        style="
+          opacity: 0;
+          border: none;
+          border-radius: 3px;
+          background: grey;
+          position: absolute;
+          left: 0px;
+          width: 100%;
+          top: 0px;
+          height: 100%;
+        "
+        multiple
+        accept=".mp3,.m4a,.wav,.ogg,.flac,.aiff,.zip"
+        tabindex="0"
+      />
+    </div>
+
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+      integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+      data-cf-beacon='{"rayId":"7890836d1cb0d977","version":"2022.11.3","r":1,"token":"bf9da2ec7413430c91a24f3eab7c9725","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
